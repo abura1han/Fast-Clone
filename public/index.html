@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- application script -->
+    <script src="./app.js" defer></script>
+
+    <title>Fast Clone</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- This section for shwo Header, Brand and some links -->
+        <section id="head">
+            <div class="links">
+                <select id="">
+                    <option value="en-us">English (US)</option>
+                    <option value="en-us">English (UK)</option>
+                    <option value="en-us">Bangla (BN)</option>
+                    <option value="en-us">Chiness</option>
+                    <option value="en-us">Arabi</option>
+                </select>
+                <a title="Privacy" href="#" class="link">Privacy</a>
+            </div>
+            <div class="brand-logo">
+                <img src="https://fast.com/assets/new-logo-vert-37861c.svg" alt="Fast">
+            </div>
+        </section>
+
+        <section id="result">
+            <h2>Your Internet speed is</h2>
+            <div class="show-result">
+                <h2 id="net-speed" class="loading">0</h2>
+                <div>
+                    <h4 id="unit" class="loading">Mbps</h4>
+                    <button id="refresh" class="loading-btn">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Second Section For Showing Result With Details -->
+        <section id="result-details">
+            <button>Show more info</button>
+        </section>
+        <!-- Social Info -->
+        <section id="social-info">
+            <a href="#">
+                <i class="bi bi-question-circle-fill"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-twitter"></i>
+            </a>
+        </section>
+        <a href="#" class="copyright">POWERD BY ABU RAIHAN</a>
+    </div>
+</body>
+
+</html>
